@@ -2,9 +2,9 @@
 
 This project implements a 911 emergency response system using a combination of speech recognition, natural language processing, and an agent-based architecture. It allows users to report incidents via voice input, extracts relevant information, and aims to dispatch appropriate resources.
 
-**## Introduction & Problem Statement**
+## Introduction & Problem Statement
 
-**### 1.1 The Challenge: Inefficiencies and Errors in 911 Call Processing**
+### 1.1 The Challenge: Inefficiencies and Errors in 911 Call Processing
 
 Emergency response relies on the swift and accurate transmission of critical information from 911 callers to dispatchers. Currently, a significant portion of this information is captured through manual data entry by call takers. This process is inherently **slow and prone to human error**. Even minor inaccuracies or delays in capturing details like location, nature of the emergency, and number of people involved can have **critical consequences**, potentially delaying life-saving assistance. The manual nature of this task also places a substantial cognitive load on call takers, especially during high-volume incidents, exacerbating errors and reducing efficiency.
 
@@ -15,7 +15,7 @@ Specifically, the limitations of manual data entry include:
 *   **Scalability Issues:** During peak demand, manual processing becomes a bottleneck, impacting response times.
 *   **Inconsistent Data:** Different call takers may interpret and record information differently, leading to data inconsistencies.
 
-**### 1.2 Introducing the AI-Powered Solution: Automated Information Extraction**
+### 1.2 Introducing the AI-Powered Solution: Automated Information Extraction
 
 To address these critical challenges, this project developed an AI assistant designed to **automatically extract key information from 911 call transcripts**. This solution leverages the power of Generative AI – specifically, Large Language Models (LLMs) – to process spoken language and identify crucial details. 
 
@@ -40,12 +40,12 @@ The following diagram illustrates the overall approach of our AI-powered emergen
 *   `static/conversation.html`: HTML file for the frontend interface.
 *   `requirements.txt`: Lists the project dependencies.
 
-**## Getting Started**
+## Getting Started
 
 1.  **Clone the repository:**
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/NaifMersal/swift911.git
     ```
 
 2.  **Install dependencies:**
@@ -139,16 +139,6 @@ Beyond automated information extraction, this AI assistant has the potential to 
 
 *   **Whisper Integration:**  Exploring the use of `faster_whisper` could improve transcription speed and reduce latency, enhancing the user experience.
 
-## Dependencies
-
-*   Python 3.7+
-*   FastAPI
-*   Uvicorn
-*   Transformers
-*   TTS
-*   librosa
-*   scipy
-*   numpy
 
 ## Contributing
 
