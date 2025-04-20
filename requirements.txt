@@ -1,0 +1,10 @@
+fastapi
+langchain_core
+langchain_openai
+librosa
+numpy
+pandas
+scipy
+soundfile
+torch
+transformers
