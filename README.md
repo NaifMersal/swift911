@@ -3,7 +3,7 @@
 This project implements a 911 emergency response system using a combination of speech recognition, natural language processing, and an agent-based architecture. It allows users to report incidents via voice input, extracts relevant information, and aims to dispatch appropriate resources.
 
 <a href="https://www.youtube.com/watch?v=gdbSvhMSVzg">
-  <img src="https://img.youtube.com/vi/gdbSvhMSVzg/0.jpg" alt="Watch the video" width="500">
+  <img src="https://img.youtube.com/vi/gdbSvhMSVzg/0.jpg" alt="Watch the video" width="1080">
 </a>
 
 ### [Watch this video on YouTube](https://www.youtube.com/watch?v=gdbSvhMSVzg)
