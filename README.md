@@ -136,6 +136,9 @@ Beyond automated information extraction, this AI assistant has the potential to 
 
 ## Technical Considerations & Future Optimizations
 
+
+* **Named Entity Recognition (NER) Model:** Once we have collected a sufficient amount of labeled data from real or simulated emergency call transcripts, we can train and incorporate a custom **NER model**. This model would be tailored to extract structured entities such as locations, types of emergencies, number of victims, and other critical details. Using NER alongside or in place of large language models for specific extraction tasks could improve **accuracy, consistency, and computational efficiency**, especially in high-throughput environments.
+
 * **Handling Multiple Incident Types within a Single Call:** Currently, the system is designed to identify and extract information for a single incident type. Expanding the system to accurately identify and process multiple, concurrent incident types within a single call (e.g., a report of both a fire and a theft) would require improvements to the LLM’s understanding of complex scenarios and the ability to normalize the models schemas.
 * **'Any to Any' Models:** The potential of 'any to any' models to further lower latency and improve results is significant, however, current open-source solutions are not yet production-ready for this application.
 *   **Asynchronous & Streaming Operations:** Implementing asynchronous programming and streaming data transfer could further optimize performance and responsiveness.
