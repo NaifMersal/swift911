@@ -24,7 +24,7 @@ Specifically, the limitations of manual data entry include:
 
 ### 1.2 Introducing the AI-Powered Solution: Automated Information Extraction
 
-To address these critical challenges, this project developed an AI assistant designed to **automatically extract key information from 911 call transcripts**. This solution leverages the power of Generative AI – specifically, Large Language Models (LLMs) – to process spoken language and identify crucial details. 
+To address these critical challenges, this project developed an AI assistant designed to **automatically extract key information from 911 call transcripts**. This solution uses Generative AI – specifically, Large Language Models (LLMs) – to process spoken language and identify crucial details. However, once we have enough data we can use NER for lower cost. 
 
 **This AI assistant performs the following key functions:**
 
