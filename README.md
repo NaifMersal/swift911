@@ -152,11 +152,3 @@ Beyond automated information extraction, this AI assistant has the potential to 
 
 Many of the technical challenges related to real-time audio processing, low-latency communication, and modular pipeline orchestration can be effectively addressed by adopting specialized frameworks like [Pipecat](https://github.com/pipecat-ai/pipecat) and [LiveKit](https://livekit.io/). 
 
-
-## Contributing
-
-Contributions are welcome! Please submit pull requests with your changes.
-
-## License
-
-This project is licensed under the MIT License.
